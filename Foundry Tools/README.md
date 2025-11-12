@@ -65,11 +65,12 @@ Thu Nov 20 | BRK 194 | 5:00-5:45 PM PST Moscone West, Level 2, Room 2020
 
 # Need to Know:
 - Badge Pickup: experts should all have registered to Ignite. There will be a separate badge pick up for experts. Picking up badges earlier is recommended. Hoodies can be picked up at Moscone West, Room 2024. 
-<img width="830" height="194" alt="image" src="https://github.com/user-attachments/assets/d1f545a0-43bb-4648-8c6a-473e3f478dc5" />  
-- Security: there will be ID checks (government ID, must match badge) and bag checks on entry at standard extrances. No external food/drinks. Badges must always be visible, there will be no badge reprints. 
-- Expert Bypass: There will be a shared lane for Experts that bypass mandatory ID check, bag checks, and body scans. Use these entrances at:
-	- 4th and Howard, far right lane
-	- 3rd and Howard, far left lane
-	- Moscone West, far left lane
-	- Yerba Buena Gardens, far right lane
+<img width="830" height="194" alt="image" src="https://github.com/user-attachments/assets/d1f545a0-43bb-4648-8c6a-473e3f478dc5" />
+
+- Security: there will be ID checks (government ID, must match badge) and bag checks on entry at standard extrances. No external food/drinks. Badges must always be visible, there will be no badge reprints.   
+- Expert Bypass: There will be a shared lane for Experts that bypass mandatory ID check, bag checks, and body scans. Use these entrances at:  
+	- 4th and Howard, far right lane  
+	- 3rd and Howard, far left lane  
+	- Moscone West, far left lane  
+	- Yerba Buena Gardens, far right lane  
 <img width="687" height="345" alt="image" src="https://github.com/user-attachments/assets/3cf9ebcc-77e1-412c-add7-fceb9e1a881e" />
