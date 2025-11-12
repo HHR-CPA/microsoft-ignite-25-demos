@@ -34,6 +34,8 @@ Avoid logos or slogans outside Microsoft/partner branding
 ## Meet the Experts Booth Content
 Content to help experts prepare for staffing the Azure AI Tools booth at Ignite 2025.
 
+https://github.com/azure-ai-foundry/microsoft-ignite-25-demos/blob/main/Foundry%20Agent%20Service/Content.md
+
 ## Sessions 
 Hero BRK 189:AI agents in Azure AI Foundry, ship fast, scale fearlessly
 Hero BRK 195:Making Smarter Model Choices in Azure AI Foundry
