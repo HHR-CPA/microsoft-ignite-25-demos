@@ -18,7 +18,7 @@ Michelle Niethammer, Principal PM Manager
 Nitya Narasimhan, Senior Cloud Advocate
 Vinod Kurpad, Principal Group PM
 
-#Content
+# Content
 Let your agentic apps talk with Azure Speech 
 Thu Nov 20 | BRK 198 | 2:15-3:00 PM PST Moscone West, Level 2, Room 2005
 
@@ -30,10 +30,9 @@ Thu Nov 20 | BRK 192 | 8:30-9:15 AM PST Moscone West, Level 2, Room 2020
 
 Driving agentic innovation with MCP as the backbone of tool-aware AI
 Thu Nov 20 | BRK 194 | 5:00-5:45 PM PST Moscone West, Level 2, Room 2020
-<img width="1720" height="585" alt="image" src="https://github.com/user-attachments/assets/b125d6ce-a6ef-40e6-8434-7ceb9dd3102b" />
 
 
-#Shift Guidance (Condensed KBYG)
+# Shift Guidance (Condensed KBYG)
 Shift Location: 
   > Moscone Center
   > Exhibit Level (below ground level) “The Hub”
