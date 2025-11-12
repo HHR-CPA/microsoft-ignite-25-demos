@@ -53,6 +53,9 @@ Thu Nov 20 | BRK 194 | 5:00-5:45 PM PST Moscone West, Level 2, Room 2020
 - Media Engagement: stay within your scope, don’t say anything you wouldn’t want on the front cover (media personnel will have orange badges)
 - Speak with JJ about shift conflicts
 
+<img width="1152" height="808" alt="image" src="https://github.com/user-attachments/assets/a894ecf4-8a13-48bc-9bd4-cce3b318c622" />
+
+
 # Resources:
 - [Booth Deck](https://microsoft-my.sharepoint.com/:p:/p/kimjon/IQDOs4sLb7lSQJd5bYtrzJAsAb0C4QKZESh9jBgIaD2MmGs?e=YZTOX8)
 - [Foundry Tools Booth KBYG Recording(to be posted)]
@@ -60,3 +63,13 @@ Thu Nov 20 | BRK 194 | 5:00-5:45 PM PST Moscone West, Level 2, Room 2020
 - [Ignite Expert KBYG Deck](https://microsoft.sharepoint.com/:b:/t/MicrosoftIgniteSpeakerExpertResources/IQBbGWr9O29wTJ863uO0oxYQAd8GdIiw8TejGpcs79lBmzQ?e=WPgkal)
 - [Ignite Expert KBYG Recording](https://microsoft.sharepoint.com/teams/MicrosoftIgniteSpeakerExpertResources/_layouts/15/stream.aspx?id=%2Fteams%2FMicrosoftIgniteSpeakerExpertResources%2FShared+Documents%2FExpert+Staffing%2FExpert+KBYG+Resources%2FMicrosoft+Ignite+Expert+Staffing+KBYG_Meeting+Recording+11.5.25.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.cce1d5ce-0d57-4f34-a4be-d02590c40856)
 
+# Need to Know:
+- Badge Pickup: experts should all have registered to Ignite. There will be a separate badge pick up for experts. Picking up badges earlier is recommended. Hoodies can be picked up at Moscone West, Room 2024. 
+<img width="830" height="194" alt="image" src="https://github.com/user-attachments/assets/d1f545a0-43bb-4648-8c6a-473e3f478dc5" />
+- Security: there will be ID checks (government ID, must match badge) and bag checks on entry at standard extrances. No external food/drinks. Badges must always be visible, there will be no badge reprints. 
+- Expert Bypass: There will be a shared lane for Experts that bypass mandatory ID check, bag checks, and body scans. Use these entrances at:
+	- 4th and Howard, far right lane
+	- 3rd and Howard, far left lane
+	- Moscone West, far left lane
+	- Yerba Buena Gardens, far right lane
+<img width="687" height="345" alt="image" src="https://github.com/user-attachments/assets/3cf9ebcc-77e1-412c-add7-fceb9e1a881e" />
