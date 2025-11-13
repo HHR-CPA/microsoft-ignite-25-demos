@@ -36,3 +36,12 @@ What is Expert Meet-up? It's your opportunity to engage in interactive one-on-on
 ## Documentation
 - https://aka.ms/AgentFramework
 - https://aka.ms/FoundryIQ
+
+## Skilling Resources
+- https://aka.ms/IgniteAIChallenge
+- https://aka.ms/CreateAgenticAISolutions
+- https://aka.ms/AIAgentsLL/Reactor
+- https://aka.ms/BestModelGenAISolution
+- https://aka.ms/ManageGenAILifecycles
+- https://aka.ms/StartTransformingBizAI
+- https://aka.ms/CredentialsForAI
