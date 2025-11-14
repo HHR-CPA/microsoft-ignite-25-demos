@@ -1,4 +1,4 @@
-# AI Search
+# Foundry IQ
 
 ## Python Sample Notebook
 
