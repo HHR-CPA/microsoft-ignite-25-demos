@@ -24,6 +24,7 @@ Welcome to the Microsoft Ignite 2025 Foundry IQ Expert Meet Up Station! We’re 
 
 ### Internal
 * Ignite 2025 EMU Foundry IQ Know Before You Go (KBYG)
+* General Ignite 2025 EMU KBYG: https://microsoft.sharepoint.com/:f:/t/MicrosoftIgniteSpeakerExpertResources/IgDDmWB4j4ESRr_V6agL-GJBAcUX3zPvuEUHPVn3NSIEMnA?e=wqQNkA
 
 ### Attendee-Facing
 * Ignite 2025 EMU Foundry IQ Station Deck
