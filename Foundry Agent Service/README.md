@@ -83,5 +83,8 @@ https://github.com/azure-ai-foundry/microsoft-ignite-25-demos/blob/main/Foundry%
 ## #MSIgnite Social Guidance
 <img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/869c4099-122e-497e-bca9-b865523ea3cd" />
 
+## Media Guidance
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/e2c4ba24-c593-4fe6-ac01-eecac012153a" />
+
 ## Announcement Blogs
 To be updated on 11/18 after Keynote session
