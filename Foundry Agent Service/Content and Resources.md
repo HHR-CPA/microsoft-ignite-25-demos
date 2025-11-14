@@ -20,9 +20,22 @@ aka.ms/nextgen-workflow
 
 https://microsoft.github.io/build-your-first-agent-with-azure-ai-agent-service-workshop/resources/
 
-# Private GH Repos per Feature: To be public on 11/18
+# Private GH Repos per Feature/Announcement
 
-<img width="1824" height="716" alt="image" src="https://github.com/user-attachments/assets/a2b5de47-1c2e-4922-942b-83363cf58f53" />
+This'll be shared on 11/18
 
-# Pre-recorded Demos: To be sahred on 11/18
+<img width="1824" height="716" alt="image" src="https://github.com/user-attachments/assets/48bc7189-0d55-4a64-b4c8-2194d75aaae7" />
+
+
+# Pre-recorded Demos
+
+This will be shared on 11/18.
+
+# What do you need to know
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/5f5c0135-db00-4c38-ab7a-42ae222a2f20" />
+
+<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/a4070739-1fe6-4f65-bf0f-77eb634ce07c" />
+
+<img width="2000" height="1125" alt="image" src="https://github.com/user-attachments/assets/66564699-6c2d-41f7-ad2a-1563b8daef44" />
 
