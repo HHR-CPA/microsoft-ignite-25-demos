@@ -6,7 +6,7 @@ Welcome to the Microsoft Ignite 2025 Foundry IQ Expert Meet Up Station! We’re 
 * **Knowledge bases** maintain agent task focus with a all-in-one RAG expert, enabling access to remote or indexed sources via a multi-source agentic retrieval engine. Users can also create knowledge bases directly in the Foundry portal.
 * **Knowledge sources** access selected remote or indexed sources with support of sources selected and agentic RAG engine as well as automatic index creation, transofrmation, and refresh.
 * **Agentic RAG engine** is an AI-powered retrieval for 40% better relevance OOTB, retrieval steeting, retrieval reasoning effort, iterative search, and answer synthesis.
-* Entra ID document level acces with Microsoft Purview. 
+* **Entra ID** document level acces with Microsoft Purview. 
 
 ## Station Roles & Responsibilites
 * Shift Check-In: Required at the start of each shift at the Expert Shift Check-In Desk (behind South Lobby escalators) or via ERL/Teams for remote areas. For AI Foundry check-in, please report on site to Laura Wolf.
