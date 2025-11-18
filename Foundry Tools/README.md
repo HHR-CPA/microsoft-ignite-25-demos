@@ -19,12 +19,9 @@ Lead: JJ Kim
 - Vinod Kurpad, Principal Group PM  
 
 # Schedule
-  <img width="471" height="790" alt="image" src="https://github.com/user-attachments/assets/954ff685-3ce7-42f7-8dec-fdabcbd21c6e" />
-
+<img width="349" height="893" alt="image" src="https://github.com/user-attachments/assets/b28d44f1-9bda-4246-b813-2cf27af0c487" />
 
 # Content
-### Let your agentic apps talk with Azure Speech  
-Thu Nov 20 | BRK 198 | 2:15-3:00 PM PST Moscone West, Level 2, Room 2005
 
 ### Conversational AI avatars with Voice Live API in Azure AI Foundry  
 Thu Nov 20 | THR 720 | 1:30-2:00 PM PST Moscone West, Level 3, Theatre E
@@ -34,6 +31,9 @@ Thu Nov 20 | BRK 192 | 8:30-9:15 AM PST Moscone West, Level 2, Room 2020
 
 ### Driving agentic innovation with MCP as the backbone of tool-aware AI  
 Thu Nov 20 | BRK 194 | 5:00-5:45 PM PST Moscone West, Level 2, Room 2020
+
+### Let your agentic apps talk with Azure Speech  
+Thu Nov 20 | BRK 198 | 2:15-3:00 PM PST Moscone West, Level 2, Room 2005
 
 
 # Shift Guidance (Condensed KBYG)
@@ -58,10 +58,34 @@ Thu Nov 20 | BRK 194 | 5:00-5:45 PM PST Moscone West, Level 2, Room 2020
 
 # Resources:
 - [Booth Deck](https://microsoft-my.sharepoint.com/:p:/p/kimjon/IQDOs4sLb7lSQJd5bYtrzJAsAb0C4QKZESh9jBgIaD2MmGs?e=YZTOX8)
-- [Foundry Tools Booth KBYG Recording(to be posted)]
+- [Foundry Tools Booth KBYG Recording](https://teams.microsoft.com/l/meetingrecap?driveId=b%210U-BObxVPkiAGxKfDMGevORk2kHXtHpBvsUi4XmUwXPVRxtUupYwQom9uAipoWu0&driveItemId=015H44QI4KIAEAFEC5SJGJZEDQL4B5B7DL&sitePath=https%3A%2F%2Fmicrosoft-my.sharepoint.com%2F%3Av%3A%2Fp%2Fkimjon%2FIQCKQAgCkF2STJyQcF8D0PxrAb_vlbyrawDxUqUN3tU98Yg&fileUrl=https%3A%2F%2Fmicrosoft-my.sharepoint.com%2F%3Av%3A%2Fp%2Fkimjon%2FIQCKQAgCkF2STJyQcF8D0PxrAb_vlbyrawDxUqUN3tU98Yg&iCalUid=040000008200E00074C5B7101A82E00800000000407EA4621553DC0100000000000000001000000072B13359E7FBFD4988165DDF9BADEFC6&threadId=19%3Ameeting_MTJhMDVlYjEtMjdkZS00Y2NmLWI1YmMtNDFkZDNmODU3MDQx%40thread.v2&organizerId=274b295f-9aa8-4e97-8e30-747982429302&tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47&callId=cea959aa-97a6-4918-b770-b65678d8ebde&threadType=Meeting&meetingType=Scheduled&subType=RecapSharingLink_RecapChiclet)
 - [Ignite Content Programming](https://microsoft.sharepoint.com/:w:/r/teams/MicrosoftIgniteSpeakerExpertResources/_layouts/15/Doc.aspx?sourcedoc=%7BA924359F-329F-4580-82E7-0E2104898F2A%7D&file=Microsoft%20Ignite_Content%20Programming.docx&action=default&mobileredirect=true&share=IQGfNSSpnzKARYLnDiEEiY8qAaYvRy4YwzkITn3p6xLQOSI)
 - [Ignite Expert KBYG Deck](https://microsoft.sharepoint.com/:b:/t/MicrosoftIgniteSpeakerExpertResources/IQBbGWr9O29wTJ863uO0oxYQAd8GdIiw8TejGpcs79lBmzQ?e=WPgkal)
 - [Ignite Expert KBYG Recording](https://microsoft.sharepoint.com/teams/MicrosoftIgniteSpeakerExpertResources/_layouts/15/stream.aspx?id=%2Fteams%2FMicrosoftIgniteSpeakerExpertResources%2FShared+Documents%2FExpert+Staffing%2FExpert+KBYG+Resources%2FMicrosoft+Ignite+Expert+Staffing+KBYG_Meeting+Recording+11.5.25.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.cce1d5ce-0d57-4f34-a4be-d02590c40856)
+
+# Demos:
+- Foundry Tools Catalogue, link to come
+	- Slide 27
+- MCP Servers/API Portal, link to come
+  	- Slide 29
+- Voice Live API, link to come
+  	- Slide 48
+- [Content Understanding](https://ai.azure.com/resource/contentunderstanding/overview?wsid=%2Fsubscriptions%2F21039746-6e73-4627-88af-efa80f856c2c%2FresourceGroups%2FEve_Team%2Fproviders%2FMicrosoft.CognitiveServices%2Faccounts%2FEveTeamFoundryRG%2Fprojects%2FEveTeamFoundryMainProject&tid=72f988bf-86f1-41af-91ab-2d7cd011db47)
+- Translator Demo
+	- Slide 52 
+
+# Content TLDR:
+- Public Preview: LLM Speech | Tools Catalogue | Azure Translation: Image Translation | LLM Speech API | Voice Live Photo Avatar
+- GA: Foundry Tools | Azure Content Understanding: BYO Mode | Live Interpreter API, Adaptive Custom Translation | Azure Language PII Detection, Conversational Language Understanding | Voice Live BYO
+- Look through the Booth Deck above, and read the slide notes for more context. In particular:
+	- Slide 17 to understand local vs. remote MCP servers
+ 	- Slide 19 to preview Foundry Tools
+	- Slide 22 to address operationalizing agents at scale
+ 	- Slide 24 to understand Azure API Center for private MCP registry
+ 	- Slide 31 to understand how BYO works with Content Understanding
+ 	- Slide 35 for overview of Tools updates and releases
+ - Review demos above
+
 
 # Need to Know:
 - Badge Pickup: experts should all have registered to Ignite. There will be a separate badge pick up for experts. Picking up badges earlier is recommended. Hoodies can be picked up at Moscone West, Room 2024. 
