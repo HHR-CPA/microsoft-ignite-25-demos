@@ -6,6 +6,25 @@ This repository contains all the demos from Microsoft Ignite 2025, organized by 
 
 Before running the demos, you'll need to configure your Azure environment:
 
+### 1. Azure Network Hosting Infrastructure
+
+Deploy the network infrastructure to Azure:
+
+```bash
+# Navigate to the infrastructure directory
+cd infra
+
+# Deploy using the deployment script (Linux/macOS)
+./deploy.sh -g <resource-group-name> -l eastus2 -e dev
+
+# Or using PowerShell (Windows)
+.\deploy.ps1 -ResourceGroupName <resource-group-name> -Location eastus2 -Environment dev
+```
+
+For detailed infrastructure documentation, see [infra/README.md](infra/README.md).
+
+### 2. Environment Configuration
+
 1. Copy `.env.example` to `.env`:
    ```bash
    cp .env.example .env
