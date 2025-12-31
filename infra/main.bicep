@@ -226,6 +226,19 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
         }
       }
       {
+        name: 'DenyAllInbound'
+        properties: {
+          priority: 4096
+          direction: 'Inbound'
+          access: 'Deny'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: '*'
+        }
+      }
+      {
         name: 'AllowHTTPSOutbound'
         properties: {
           priority: 100
@@ -242,7 +255,7 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
       {
         name: 'AllowHTTPOutbound'
         properties: {
-          priority: 105
+          priority: 110
           direction: 'Outbound'
           access: 'Allow'
           protocol: 'Tcp'
@@ -256,7 +269,7 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
       {
         name: 'AllowVnetOutbound'
         properties: {
-          priority: 110
+          priority: 120
           direction: 'Outbound'
           access: 'Allow'
           protocol: '*'

@@ -2,6 +2,10 @@
 
 # Azure Network Hosting Deployment Script
 # This script deploys the network infrastructure for Microsoft Ignite 2025 demos
+# 
+# USAGE: Run this script from the infra directory:
+#   cd infra
+#   ./deploy.sh -g <resource-group-name> -l <location> -e <environment>
 
 set -e
 

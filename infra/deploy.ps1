@@ -1,5 +1,9 @@
 # Azure Network Hosting Deployment Script (PowerShell)
 # This script deploys the network infrastructure for Microsoft Ignite 2025 demos
+# 
+# USAGE: Run this script from the infra directory:
+#   cd infra
+#   .\deploy.ps1 -ResourceGroupName <resource-group-name> -Location <location> -Environment <environment>
 
 param(
     [Parameter(Mandatory=$true, HelpMessage="Name of the resource group")]
