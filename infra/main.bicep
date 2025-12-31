@@ -135,6 +135,45 @@ resource nsgAiServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
           destinationAddressPrefix: '*'
         }
       }
+      {
+        name: 'AllowAzureServicesOutbound'
+        properties: {
+          priority: 100
+          direction: 'Outbound'
+          access: 'Allow'
+          protocol: 'Tcp'
+          sourcePortRange: '*'
+          destinationPortRange: '443'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: 'AzureCloud'
+        }
+      }
+      {
+        name: 'AllowVnetOutbound'
+        properties: {
+          priority: 110
+          direction: 'Outbound'
+          access: 'Allow'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: 'VirtualNetwork'
+          destinationAddressPrefix: 'VirtualNetwork'
+        }
+      }
+      {
+        name: 'DenyAllOutbound'
+        properties: {
+          priority: 4096
+          direction: 'Outbound'
+          access: 'Deny'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: '*'
+        }
+      }
     ]
   }
 }
@@ -170,6 +209,7 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
           destinationPortRange: '80'
           sourceAddressPrefix: 'Internet'
           destinationAddressPrefix: '*'
+          description: 'Allow HTTP for development/demo purposes. For production, consider removing this rule and using HTTPS only.'
         }
       }
       {
@@ -177,6 +217,32 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
         properties: {
           priority: 120
           direction: 'Inbound'
+          access: 'Allow'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: 'VirtualNetwork'
+          destinationAddressPrefix: 'VirtualNetwork'
+        }
+      }
+      {
+        name: 'AllowInternetOutbound'
+        properties: {
+          priority: 100
+          direction: 'Outbound'
+          access: 'Allow'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: 'Internet'
+        }
+      }
+      {
+        name: 'AllowVnetOutbound'
+        properties: {
+          priority: 110
+          direction: 'Outbound'
           access: 'Allow'
           protocol: '*'
           sourcePortRange: '*'
@@ -214,6 +280,32 @@ resource nsgPrivateEndpoints 'Microsoft.Network/networkSecurityGroups@2023-05-01
         properties: {
           priority: 4096
           direction: 'Inbound'
+          access: 'Deny'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: '*'
+        }
+      }
+      {
+        name: 'AllowVnetOutbound'
+        properties: {
+          priority: 100
+          direction: 'Outbound'
+          access: 'Allow'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: 'VirtualNetwork'
+          destinationAddressPrefix: 'VirtualNetwork'
+        }
+      }
+      {
+        name: 'DenyAllOutbound'
+        properties: {
+          priority: 4096
+          direction: 'Outbound'
           access: 'Deny'
           protocol: '*'
           sourcePortRange: '*'

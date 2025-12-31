@@ -84,8 +84,8 @@ else {
 Write-Info "Deploying network infrastructure..."
 $deploymentName = "ignite-network-$(Get-Date -Format 'yyyyMMdd-HHmmss')"
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Path
-$templateFile = Join-Path $scriptPath "..\infra\main.bicep"
-$parametersFile = Join-Path $scriptPath "..\infra\main.parameters.json"
+$templateFile = Join-Path $scriptPath "main.bicep"
+$parametersFile = Join-Path $scriptPath "main.parameters.json"
 
 az deployment group create `
     --name $deploymentName `

@@ -112,8 +112,8 @@ DEPLOYMENT_NAME="ignite-network-$(date +%Y%m%d-%H%M%S)"
 az deployment group create \
     --name "$DEPLOYMENT_NAME" \
     --resource-group "$RESOURCE_GROUP_NAME" \
-    --template-file "$(dirname "$0")/../infra/main.bicep" \
-    --parameters "$(dirname "$0")/../infra/main.parameters.json" \
+    --template-file "$(dirname "$0")/main.bicep" \
+    --parameters "$(dirname "$0")/main.parameters.json" \
     --parameters location="$LOCATION" environmentName="$ENVIRONMENT" \
     --verbose
 
