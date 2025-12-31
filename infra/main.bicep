@@ -226,16 +226,31 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
         }
       }
       {
-        name: 'AllowInternetOutbound'
+        name: 'AllowHTTPSOutbound'
         properties: {
           priority: 100
           direction: 'Outbound'
           access: 'Allow'
-          protocol: '*'
+          protocol: 'Tcp'
           sourcePortRange: '*'
-          destinationPortRange: '*'
+          destinationPortRange: '443'
           sourceAddressPrefix: '*'
           destinationAddressPrefix: 'Internet'
+          description: 'Allow HTTPS outbound for external API calls and dependencies'
+        }
+      }
+      {
+        name: 'AllowHTTPOutbound'
+        properties: {
+          priority: 105
+          direction: 'Outbound'
+          access: 'Allow'
+          protocol: 'Tcp'
+          sourcePortRange: '*'
+          destinationPortRange: '80'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: 'Internet'
+          description: 'Allow HTTP outbound for development/demo purposes'
         }
       }
       {
@@ -249,6 +264,19 @@ resource nsgAppServices 'Microsoft.Network/networkSecurityGroups@2023-05-01' = {
           destinationPortRange: '*'
           sourceAddressPrefix: 'VirtualNetwork'
           destinationAddressPrefix: 'VirtualNetwork'
+        }
+      }
+      {
+        name: 'DenyAllOutbound'
+        properties: {
+          priority: 4096
+          direction: 'Outbound'
+          access: 'Deny'
+          protocol: '*'
+          sourcePortRange: '*'
+          destinationPortRange: '*'
+          sourceAddressPrefix: '*'
+          destinationAddressPrefix: '*'
         }
       }
     ]
