@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: microsoft-ignite-25-demos
+metadata:
+  template: microsoft-ignite-25-demos@0.0.1-beta
+
+# Infrastructure configuration
+infra:
+  # Path to infrastructure as code files
+  path: infra
+  # Module to use for infrastructure deployment
+  module: main
+
+# Service configuration (can be extended for specific demo apps)
+services: {}
