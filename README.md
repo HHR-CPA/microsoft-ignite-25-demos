@@ -2,6 +2,10 @@
 
 This repository contains all the demos from Microsoft Ignite 2025, organized by topic.
 
+## Quick Start
+
+New to the project? See the [Quick Start Guide](QUICKSTART.md) for fast deployment instructions.
+
 ## Setup
 
 Before running the demos, you'll need to configure your Azure environment:
